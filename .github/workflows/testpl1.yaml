@@ -1,16 +1,16 @@
-name: testpipeline1
+name: Test Pipeline1
 on: push
 
 
 jobs:
-   job1: 
-     runs-on:ubuntu-latest
+  job1:
+    runs-on: ubuntu-latest
 
-     steps:
-      - name: Step1
-        run: echo "Step1 executed"
+    steps:
+    - name: Step1
+      run: echo "Step1 executed"
 
-      - name: Step2
-        run: echo "Step2 executed"
+    - name: Stpe2
+      run: echo "Step2 Executed"
         
     
